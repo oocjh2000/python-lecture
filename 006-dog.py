@@ -7,4 +7,5 @@ while True:
     else:
         break
 
-print(ls)
+for i in ls:
+    print(i,end=',')
